@@ -1385,4 +1385,16 @@
      <transformer name="qecBooster" class="org.apache.solr.response.transform.EditorialMarkerFactory" />
     -->
 
+
+
+ <!-- An example of Solr's implicit default behavior if no
+      no schemaFactory is explicitly defined.
+ -->
+  <schemaFactory class="ManagedIndexSchemaFactory">
+    <bool name="mutable">true</bool>
+    <str name="managedSchemaResourceName">managed-schema</str>
+  </schemaFactory>
+
+
+
 </config>
