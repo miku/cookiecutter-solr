@@ -14,6 +14,6 @@ Defaults:
 ```
 
 ```
-$ cookiecutter https://github.com/mikue/cookiecutter-solr.git
+$ cookiecutter https://github.com/miku/cookiecutter-solr.git
 $ solr start -s solr
 ```
