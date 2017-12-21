@@ -1,7 +1,7 @@
 cookiecutter-solr
 =================
 
-A simple solr 7.1.0 config directory template.
+A simple solr 7.1.0 config directory template. Managed schema. Unique id in id.
 
 Defaults:
 
