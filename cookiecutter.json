@@ -1,4 +1,5 @@
 {
     "solr_home": "solr",
-    "core": "sample"
+    "core": "sample",
+    "luceneMatchVersion": "7.1.0"
 }
