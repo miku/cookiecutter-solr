@@ -1,12 +1,19 @@
 cookiecutter-solr
 =================
 
-A simple solr setup template.
+A simple solr 7.1.0 config directory template.
 
-Possible errors
----------------
+Defaults:
 
-> sample:
-> org.apache.solr.common.SolrException:org.apache.solr.common.SolrException:
-> Could not load conf for core sample: Error loading both non-managed schema
-> 'schema.xml' and managed schema 'managed-schema'
+```
+{
+  "solr_home": "solr",
+  "core": "sample",
+  "luceneMatchVersion": "7.1.0"
+}
+```
+
+```
+$ cookiecutter ...
+$ solr start -s solr
+```
